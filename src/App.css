@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  background-color: tomato;
+  align-items: center;
+}
+ul{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: aliceblue;
+  font-size: medium;
+}
+.logo{
+  color: aliceblue;
+  font-size: large;
+}
+.logo::first-letter{
+  font-size: x-large;
+}
